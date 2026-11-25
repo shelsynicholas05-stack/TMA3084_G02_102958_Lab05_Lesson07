@@ -48,7 +48,11 @@ class _BottomNavLabState extends State<BottomNavLab> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         fixedColor: Colors.white,
+<<<<<<< HEAD
         backgroundColor: Colors.indigo,
+=======
+        backgroundColor: Colors.teal,
+>>>>>>> origin/main
         iconSize: 30,
         currentIndex: currentIndex,
         onTap: (int index) {
